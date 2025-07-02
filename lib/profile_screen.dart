@@ -86,7 +86,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     : FileImage(File(_imageFile!.path)) as ImageProvider,
           ),
 
-          Positioned(
+          Positioned( 
             bottom: 20,
             right: 20,
             child: InkWell(
