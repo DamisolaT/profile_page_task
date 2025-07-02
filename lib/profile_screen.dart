@@ -88,7 +88,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
           Positioned( 
             bottom: 20,
-            right: 20,
+            right: 0,
             child: InkWell(
               onTap: () {
                 showModalBottomSheet(
@@ -96,7 +96,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   builder: ((builder) => bottomSheet(context)),
                 );
               },
-              child: Icon(Icons.camera_alt, color: Colors.teal, size: 20),
+              child: Icon(Icons.camera_alt, color: Colors.teal, size: 30),
             ),
           ),
         ],
